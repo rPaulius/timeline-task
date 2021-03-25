@@ -1,0 +1,198 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container:before {
+    content: "";
+    display: inline-block;
+    background-color: #e9ecef;
+    position: absolute;
+    width: 5px;
+    height: 1150px;
+    left: 475px;
+    opacity: 0.4;
+    
+  }
+
+ 
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.one {
+    
+}
+
+
+p {
+    color: gray;
+    margin: 0;
+    
+}
+
+h2 {
+    margin: 10px auto;
+    
+}
+
+img, .last {
+    border: 0.5em solid #e9ecef;
+  background-color: #e9ecef;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+  position: sticky;
+}
+
+.last  {
+    background-color: orange;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-top: 50px;
+    
+}
+
+
+span {
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+    
+
+.column, .last {
+    margin-bottom: 100px;
+}
+
+  
+ 
+
+  .column:nth-child(odd) article {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  
+
+  .column:nth-child(even) article {
+    text-align: right;
+    margin-left: 20px;
+  }
+
+
+  @media(max-width: 320px) {
+
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .container:before {
+        content: "";
+        display: inline-block;
+        background-color: #e9ecef;
+        position: absolute;
+        width: 2px;
+        height: 1110px;
+        left: 400px;
+        
+      }
+    
+     
+    
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .one {
+        
+    }
+    
+    
+    p {
+        color: gray;
+        margin: 0;
+        
+    }
+    
+    h2 {
+        margin: 10px auto;
+        
+    }
+    
+    img, .last {
+        border: 0.5em solid #e9ecef;
+      background-color: #e9ecef;
+      border-radius: 50%;
+      margin-right: 10px;
+      width: 70px;
+      height: 70px;
+      position: sticky;
+    }
+    
+    .last  {
+        background-color: orange;
+        font-size: 12px;
+        text-align: center;
+        vertical-align: bottom;
+        margin-top: 50px;
+        
+    }
+    
+    
+    span {
+        color: white;
+        margin: 10px;
+        display: inline-block;
+    }
+    
+    
+        
+    
+    .column, .last {
+        margin-bottom: 100px;
+    }
+    
+      
+     
+    
+      .column:nth-child(odd) article {
+        text-align: right;
+        margin-left: 20px;
+      }
+    
+      
+    
+      .column:nth-child(even) article {
+        text-align: right;
+        margin-left: 20px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
